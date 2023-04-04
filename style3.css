@@ -1,0 +1,353 @@
+@import url('https://fonts.googleapis.com/css2?family=Mali:wght@200;300;400;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: 'Mali', cursive;
+}
+
+
+.contaner{
+    width: 1280px;
+    margin: 0 auto;
+}
+
+.left{
+    width: 270px;
+    height: 832px;
+    background-color: #BF7D7D;
+    float:left;
+}
+
+.center{
+    width: 700px;
+    height: 832px;
+    float:left;
+}
+
+.right{
+    width: 310px;
+    height: 832px;
+    background-color: #BF7D7D;
+    float: right;
+}
+
+
+.logo1{
+    text-align: center;
+    margin: 40px 0;
+}
+
+.Tùy-chọn{
+    padding-left: 45px;
+}
+
+.T{
+    height: 40px;
+    width: 180px;
+    font-family: 'Mali';
+    font-weight: 700;
+    font-size: 20px;
+    background-color:#BF7D7D;
+    border-radius: 20px;
+    border-width: 0px;
+    margin-top: 25px;
+    color:#fff
+}
+
+.T1{
+    height: 50px;
+    width: 180px;
+    font-family: 'Mali';
+    font-weight: 700;
+    font-size: 20px;
+    background-color:#fff;
+    border-radius: 30px;
+    border-width: 0px;
+    margin-top: 20px;
+}
+
+.qc{
+    overflow: hidden;
+    padding-top: 50px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+
+.qc figure{
+    position: relative;
+    width: 100%;
+    display:flex;
+    animation: 20s qc infinite;
+}
+.qc figure img{
+    border-radius: 20px;
+    float: left;
+    width: 100%;
+}
+
+@keyframes qc {
+    0% {
+        left: 0;
+    }
+    20% {
+        left: 0;
+    }
+    25% {
+        left: -100%;
+    }
+    45% {
+        left: -100%;
+    }
+    50% {
+        left: -200%;
+    }
+    70% {
+        left: -200%;
+    }
+    75% {
+        left: -300%;
+    }
+    95% {
+        left: -300%;
+    }
+    100% {
+        left: -400%;
+    }
+
+}
+
+.Rating button{
+    margin: 30px 45px;
+    width: 180px;
+    height: 90px;
+    border-radius: 20px;
+    border-color: #fff;
+    background-color: #fff;
+    font-family: 'Mali';
+}
+
+.logo2{
+    text-align: center;
+    padding-top: 50px;
+}
+
+
+.logo2 img{
+    border-radius: 100%;
+}
+
+.content h2{
+    padding-left: 35px;
+}
+
+.Info{
+    display:flex;
+    margin-top: 40px;
+}
+
+
+.Info1{
+    padding-left: 50px;
+}
+
+
+.Info2{
+    padding-right: 38px;
+}
+
+
+.Detail{
+    display:flex;
+    padding-bottom: 18px;
+    padding-top: 5px;
+}
+
+
+.Detail1{
+    padding-left: 68px;
+}
+
+
+.Detail2{
+    padding-right: 25px;
+}
+
+
+.Option{
+    margin-left: 40px;
+}
+
+
+.O{
+    height: 60px;
+    width: 230px;
+    font-family: 'Mali';
+    font-weight: 700;
+    font-size: 17px;
+    background-color: #CCEDF6;
+    border-radius: 20px;
+    border-color:#CCEDF6;
+    border-width: 1px;
+    margin-top: 30px;
+}
+
+
+ h2{
+    text-align: left;
+    margin-left: 45px;
+    height: 30px;
+    padding: 10px 0;
+    font-size: 16px;
+}
+
+div h3{
+    text-align: center;
+    font-size: 11px;
+    font-weight: 600;
+    margin-top: 8px;
+}
+
+.TOP{
+    padding-top:40px;
+}
+
+.TOP img{
+    margin-left: 25px;
+    width: 32px;
+    float:left;
+}
+
+.Thượng{
+    padding-left: 80px;
+}
+
+.Thượng #H{
+    font-weight: 900;
+    padding-bottom: 5px;
+}
+
+.Hạ{
+    display:flex;
+    margin-left: 45px;
+    margin-top: 22px;
+}
+
+.search input{
+    outline: none;
+    border-radius: 8px;
+    border-color:#CCEDF6;
+    border-width: 0.5px;
+    width: 250px;
+    margin-top: 7px;
+    font-family: 'Mali';
+    margin-right: 30px;
+    height: 25px;
+}
+
+::placeholder{
+    color:#aed9e5;
+    font-size: 10px;
+    padding-left: 10px;
+}
+
+.Hạ button{
+    font-family: 'Mali';
+    font-size: 10px;
+    color:#aed9e5;
+
+    outline: none;
+    border-radius: 8px;
+    border-color:#CCEDF6;
+    border-width: 0.5px;
+    background-color: #fff;
+
+    width: 150px;
+    margin-top: 5px;
+    margin-right: 30px;
+    padding-left: 10px;
+}
+
+
+
+
+#list-button{
+    display:flex;
+    padding-top: 12px;
+    padding-left: 190px;
+    list-style: none;
+}
+
+.button{
+    text-decoration: none;
+    padding: 0px 8px;
+    border-radius: 30px;
+    background-color: #353383;
+    font-family: 'Mali';
+    font-size: 12px;
+    color:#fff;
+    margin-right: 12px;
+}
+
+#list-button li{
+    position:relative;
+}
+
+#list-button ul.sub-menu{
+    position: absolute;
+    background-color: #353383;
+    list-style: none;
+    font-size: 12px;
+    width: 120px;
+    text-align: center;
+    padding: 5px;
+    display: none;
+}
+
+#list-button li:hover ul.sub-menu{
+    display:block;
+}
+
+#list-button ul.sub-menu li:hover a{
+    background-color: #6d6060;
+}
+
+#list-button ul.sub-menu li a{
+    color:#fff;
+}
+
+
+
+
+.Trung #Tr1{
+    text-align: center;
+    padding-top: 35px;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.nd{
+    text-align: left;
+    font-size: 12px;
+    font-weight: 400;
+    width: 500px;
+    height: 531px;
+    margin-left: 95px;
+    margin-top: 30px;
+    padding-right: 30px;
+    overflow-y:scroll;
+}
+
+::-webkit-scrollbar{
+    width: 3px;
+}
+
+::-webkit-scrollbar-thumb {
+    background:#aed9e5;
+    border-radius: 50px;
+}
