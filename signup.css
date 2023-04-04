@@ -1,0 +1,147 @@
+.container{
+    width: 1280px;
+    margin:auto;
+}
+body{
+    font-family: 'Mali', cursive;
+}
+
+.khung_trang{
+    width: 1186px;
+    height: 732px;
+    border-radius: 50px;
+    margin: 40px;
+    background: rgba(255, 255, 255, 0.8);
+  }
+
+.logo img{
+    width: 211px;
+    height: 75px;
+    padding-top: 29px;
+    padding-left: 210px;
+}  
+.welcome{
+    font-family: 'Cambria';
+    font-weight: 700;
+    font-size: 23px;
+    margin-top: -2.5%;
+    padding-left: 145px;
+    color: #9A6031;
+
+}
+
+#khungtl1{
+    width: 500px;
+    height: 50px;
+    border-radius: 50px;
+    background: rgba(255, 255, 255, 0.8);
+    border: 3px solid #9A6031;
+    margin-left: 80px;
+}
+#khungtl2{
+    width: 500px;
+    height: 50px;
+    border-radius: 50px;
+    background: rgba(255, 255, 255, 0.8);
+    border: 3px solid #9A6031;
+    margin-left: 80px;
+    margin-top: 20px;
+}
+#khungtl4{
+    width: 500px;
+    height: 50px;
+    border-radius: 50px;
+    background: rgba(255, 255, 255, 0.8);
+    border: 3px solid #9A6031;
+    margin-left: 80px;
+    margin-top: 20px;
+}
+.content1 {
+margin-left: 9%;
+margin-top: -18%;
+font-family: 'Mali light';
+font-size: 13px;
+color: #0B0B0B;
+}
+.content2 {
+    margin-left: 9%;
+    margin-top: 3.5%;
+    font-family: 'Mali light';
+    font-size: 13px;
+    color: #0B0B0B;
+}
+.content8 {
+    margin-left: 9%;
+    margin-top: 3.5%;
+    font-family: 'Mali light';
+    font-size: 13px;
+    color: #0B0B0B;
+}
+#tick{
+    width: 15px;
+    height: 15px;
+    background: rgba(255, 255, 255, 0.8);
+    border: 3px solid #9A6031;
+    margin-left: 100px;
+    margin-top: 45px;
+}
+.content3 {
+    margin-left: 12%;
+    margin-top: -3.4%;
+    font-family: 'Cambria';
+    font-size: 12px;
+    color: #0B0B0B;
+}
+#khungtl3 {
+    width: 500px;
+    height: 50px;
+    border-radius: 50px;
+    background: #9A6031;
+    margin-left: 80px;
+    margin-top: 30px
+}
+
+.content5 {
+    margin-left: 24.8%;
+    margin-top: -4.7%;
+    font-family: 'Cambria';
+    font-size: 12px;
+    color: #ffffff;
+}
+.content6 {
+    margin-left: 10%;
+    margin-top: 3.3%;
+    font-family: 'Cambria';
+    font-size: 12px;
+    color: #0b0000;
+}
+.anhlogo img{
+    width: 288px;
+    height: 60px;
+    margin-left: 13%;
+}
+
+.content9 {
+    margin-left: 10%;
+    margin-top: -3.7%;
+    font-family: 'Cambria';
+    font-size: 12px;
+    color: #050000;
+}
+.content7 {
+    margin-left: 33%;
+    margin-top: 1%;
+    font-family: 'Cambria';
+    font-size: 12px;
+    color: #050000;
+}
+
+.anhchinh img{
+    width: 513px;
+    height: 672px;
+    margin-top: -65%;
+    margin-left: 53%;
+    margin-bottom: 53px;
+    border-radius: 50px;
+    
+} 
